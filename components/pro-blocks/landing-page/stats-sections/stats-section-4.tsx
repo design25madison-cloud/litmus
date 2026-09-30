@@ -18,12 +18,12 @@ export function StatsSection4() {
           </div>
 
           <div className="flex flex-col gap-4 md:gap-6 lg:flex-row">
-            <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
+            <Card className="bg-background rounded-xl border-none p-6 shadow-none">
               <CardContent className="flex flex-col gap-2 p-0 md:gap-3">
                 <h3 className="text-primary font-semibold">
                   Meetings analyzed
                 </h3>
-                <span className="text-foreground text-3xl font-semibold md:text-4xl">
+                <span className="heading-lg text-foreground">
                   5M+
                 </span>
 
@@ -34,10 +34,10 @@ export function StatsSection4() {
               </CardContent>
             </Card>
 
-            <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
+            <Card className="bg-background rounded-xl border-none p-6 shadow-none">
               <CardContent className="flex flex-col gap-2 p-0 md:gap-3">
                 <h3 className="text-primary font-semibold">Hours saved</h3>
-                <span className="text-foreground text-3xl font-semibold md:text-4xl">
+                <span className="heading-lg text-foreground">
                   500K+
                 </span>
                 <p className="text-muted-foreground text-base">
@@ -47,10 +47,10 @@ export function StatsSection4() {
               </CardContent>
             </Card>
 
-            <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
+            <Card className="bg-background rounded-xl border-none p-6 shadow-none">
               <CardContent className="flex flex-col gap-2 p-0 md:gap-3">
                 <h3 className="text-primary font-semibold">Rating</h3>
-                <span className="text-foreground text-3xl font-semibold md:text-4xl">
+                <span className="heading-lg text-foreground">
                   4.85/5
                 </span>
                 <p className="text-muted-foreground text-base">

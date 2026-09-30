@@ -6,7 +6,7 @@ import { Tagline } from "@/components/pro-blocks/landing-page/tagline";
 export function FeatureSection9() {
   return (
     <section
-      className="bg-secondary section-padding-y border-b"
+      className="bg-background section-padding-y border-b"
       id="how-it-works"
     >
       <div className="container-padding-x container mx-auto flex flex-col gap-10 md:gap-12">

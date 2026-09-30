@@ -53,7 +53,7 @@ const pricingData = {
 export function PricingSection3() {
   return (
     <section
-      className="bg-secondary section-padding-y border-b"
+      className="bg-background section-padding-y border-b"
       aria-labelledby="pricing-section-title-3"
       id="pricing"
     >
@@ -103,7 +103,7 @@ export function PricingSection3() {
 
                     {/* Price Display with Currency and Period */}
                     <div className="flex items-end gap-0.5">
-                      <span className="text-4xl font-semibold">
+                      <span className="heading-lg">
                         ${plan.price}
                       </span>
                       <span className="text-muted-foreground text-base">

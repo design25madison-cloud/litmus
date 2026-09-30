@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
-import { Onest } from "next/font/google";
+import { Archivo, Libertinus_Serif } from "next/font/google";
 import "./globals.css";
 
-const onest = Onest({
+const archivo = Archivo({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-archivo",
   weight: ["400", "500", "600", "700"],
+});
+
+const libertinus = Libertinus_Serif({
+  subsets: ["latin"],
+  variable: "--font-libertinus",
+  weight: ["400", "600", "700"],
+  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
@@ -24,7 +31,9 @@ export default function RootLayout({
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body className={`${onest.variable} relative antialiased`}>
+        <body
+          className={`${archivo.variable} ${libertinus.variable} relative antialiased`}
+        >
           {children}
         </body>
       </html>

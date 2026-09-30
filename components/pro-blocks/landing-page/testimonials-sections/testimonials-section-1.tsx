@@ -17,7 +17,7 @@ export default function TestimonialsSection1({
 }: TestimonialsSection1Props) {
   return (
     <section
-      className="dark:bg-background container-padding-x section-padding-y flex flex-col items-center border-b bg-blue-950"
+      className="container-padding-x section-padding-y flex flex-col items-center border-b bg-[#001731]"
       aria-labelledby="testimonial-title"
     >
       {/* Content Container */}
@@ -25,7 +25,7 @@ export default function TestimonialsSection1({
         {/* Testimonial Quote */}
         <blockquote
           id="testimonial-title"
-          className="text-center text-xl font-medium text-white md:text-3xl"
+          className="heading-md text-center text-white"
         >
           &quot;{quote}&quot;
         </blockquote>

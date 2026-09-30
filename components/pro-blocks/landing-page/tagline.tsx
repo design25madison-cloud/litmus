@@ -8,7 +8,7 @@ const taglineVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-background border shadow-xs px-2.5 rounded-md h-7",
+        default: "bg-white border shadow-xs px-2.5 rounded-md h-7",
         ghost: "bg-transparent text-muted-foreground",
         white: "text-white",
       },
