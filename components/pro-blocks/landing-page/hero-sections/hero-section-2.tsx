@@ -5,6 +5,7 @@ import { Check, ArrowRight } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Tagline } from "@/components/pro-blocks/landing-page/tagline";
 import Image from "next/image";
+import { publicPath } from "@/lib/utils";
 
 export function HeroSection2() {
   return (
@@ -74,7 +75,7 @@ export function HeroSection2() {
         <div className="w-full flex-1">
           <AspectRatio ratio={1 / 1}>
             <Image
-              src="/Hero.png"
+              src={publicPath("/Hero.png")}
               alt="Hero visual"
               fill
               priority

@@ -1,6 +1,7 @@
 "use client";
 
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import { publicPath } from "@/lib/utils";
 
 interface TestimonialsSection1Props {
   quote?: string;
@@ -34,7 +35,7 @@ export default function TestimonialsSection1({
         <div className="flex flex-col items-center gap-4">
           {/* Author Avatar */}
           <Avatar className="h-12 w-12 rounded-xl ring-2 ring-white md:h-14 md:w-14">
-            <AvatarImage src={avatarSrc} alt={authorName} />
+            <AvatarImage src={publicPath(avatarSrc)} alt={authorName} />
           </Avatar>
 
           {/* Author Details */}
